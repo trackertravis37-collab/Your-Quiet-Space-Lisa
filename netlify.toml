@@ -1,0 +1,10 @@
+[build]
+  command = "pnpm install --frozen-lockfile=false && pnpm build"
+  publish = "dist"
+
+# Optional: if you later switch from hash routing to path routing,
+# keep this redirect to support deep links.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
