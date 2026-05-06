@@ -1,0 +1,14 @@
+# Music files (already included)
+
+This project includes 3 **Creative Commons** tracks in `public/`:
+- `calm.mp3` (default)
+- `uplift.mp3` (for "I feel tired")
+- `comfort.mp3` (for "I feel numb")
+
+They switch automatically based on what she picks.
+
+## Want to use your own songs?
+Replace the MP3 files in `public/` (keep the same filenames), or update `src/content/defaultContent.ts`.
+
+Note: if you use copyrighted songs from Spotify/YouTube, you usually can't legally bundle them into a website.
+Use royalty-free / Creative Commons music instead.
